@@ -134,3 +134,7 @@ p {
     display: flex;
     justify-content: center;
 }
+#how-it-works > iframe {
+    max-width: 560px;
+    width: 100%;
+}
