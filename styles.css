@@ -46,3 +46,34 @@ a {
     color: #000;
     text-decoration: none;
 }
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+#hero > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+#hero input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+#hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+}
