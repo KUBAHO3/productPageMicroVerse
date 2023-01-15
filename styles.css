@@ -198,3 +198,23 @@ ol {
     background: transparent;
     cursor: pointer;
 }
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+footer > ul > li {
+    padding: 0 10px;
+}
+footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
